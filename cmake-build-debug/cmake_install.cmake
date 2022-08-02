@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jjj/Desktop/OSAHS_project
+# Install script for directory: C:/Users/jjj/Desktop/osahs/OSAHS_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -52,10 +52,10 @@ RM = "G:\a-soft\code_soft\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jjj\Desktop\OSAHS_project
+CMAKE_SOURCE_DIR = C:\Users\jjj\Desktop\osahs\OSAHS_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OSAHS_project.elf.dir/depend.make
@@ -65,841 +65,840 @@ include CMakeFiles/OSAHS_project.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OSAHS_project.elf.dir/flags.make
 
-CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.obj: ../ADS1299/ADS1298.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\ADS1299\ADS1298.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\ADS1299\ADS1298.c
-
-CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\ADS1299\ADS1298.c > CMakeFiles\OSAHS_project.elf.dir\ADS1299\ADS1298.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\ADS1299\ADS1298.c -o CMakeFiles\OSAHS_project.elf.dir\ADS1299\ADS1298.c.s
-
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\adc.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\adc.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\adc.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\adc.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\adc.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\adc.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\adc.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\adc.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\adc.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\adc.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\adc.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\dma.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\dma.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\dma.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\dma.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\dma.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\dma.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\dma.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\dma.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\dma.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\dma.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\dma.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\freertos.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\freertos.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\freertos.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\freertos.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\freertos.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\freertos.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\freertos.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\freertos.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\freertos.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\freertos.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\freertos.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\gpio.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\gpio.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\gpio.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\gpio.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\gpio.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\gpio.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/gpio.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\gpio.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\gpio.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\gpio.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\main.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\main.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\main.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\main.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\main.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\main.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/main.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\main.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\main.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\main.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.obj: ../Core/Src/sdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\sdio.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\sdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\sdio.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\sdio.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\sdio.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\sdio.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\sdio.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\sdio.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/sdio.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\sdio.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\sdio.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\sdio.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\sdio.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\spi.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\spi.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\spi.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\spi.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\spi.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\spi.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\spi.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/spi.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\spi.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\spi.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\spi.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\spi.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_it.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_it.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_it.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_it.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\stm32f4xx_it.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_it.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\stm32f4xx_it.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\syscalls.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\syscalls.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\syscalls.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\syscalls.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\syscalls.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\syscalls.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\syscalls.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\system_stm32f4xx.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\system_stm32f4xx.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\system_stm32f4xx.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\system_stm32f4xx.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\system_stm32f4xx.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\system_stm32f4xx.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\system_stm32f4xx.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\tim.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\tim.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\tim.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\tim.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\tim.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\tim.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\tim.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\tim.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\tim.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\tim.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\usart.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Core\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\usart.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\usart.c
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Core\Src\usart.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\usart.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\usart.c > CMakeFiles\OSAHS_project.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Core\Src\usart.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\usart.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\Src\usart.c -o CMakeFiles\OSAHS_project.elf.dir\Core\Src\usart.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.obj: ../Core/hand/ADS1299/ADS1298.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\ADS1299\ADS1298.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\ADS1299\ADS1298.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\ADS1299\ADS1298.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\ADS1299\ADS1298.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\ADS1299\ADS1298.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\ADS1299\ADS1298.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.obj: ../Core/hand/FATFS/App/fatfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\App\fatfs.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\App\fatfs.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\App\fatfs.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\App\fatfs.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\App\fatfs.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\App\fatfs.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.obj: ../Core/hand/FATFS/Target/bsp_driver_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\bsp_driver_sd.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\bsp_driver_sd.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\bsp_driver_sd.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\bsp_driver_sd.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\bsp_driver_sd.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\bsp_driver_sd.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.obj: ../Core/hand/FATFS/Target/fatfs_platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\fatfs_platform.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\fatfs_platform.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\fatfs_platform.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\fatfs_platform.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\fatfs_platform.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\fatfs_platform.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.obj: ../Core/hand/FATFS/Target/sd_diskio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\sd_diskio.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\sd_diskio.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\sd_diskio.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\sd_diskio.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\FATFS\Target\sd_diskio.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\FATFS\Target\sd_diskio.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.obj: ../Core/hand/LCD/GUI.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\GUI.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\GUI.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\GUI.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\GUI.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\GUI.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\GUI.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.obj: ../Core/hand/LCD/lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\lcd.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\lcd.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\lcd.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\lcd.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\lcd.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\lcd.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.obj: ../Core/hand/LCD/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\test.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\test.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\test.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\test.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\LCD\test.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\LCD\test.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj: ../Core/hand/M8266WIFI/M8266HostIf_STM32xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\M8266HostIf_STM32xx.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\M8266HostIf_STM32xx.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\M8266HostIf_STM32xx.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\M8266HostIf_STM32xx.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\M8266HostIf_STM32xx.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\M8266HostIf_STM32xx.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.obj: ../Core/hand/M8266WIFI/M8266WIFI_ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\M8266WIFI_ops.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\M8266WIFI_ops.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\M8266WIFI_ops.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\M8266WIFI_ops.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\M8266WIFI_ops.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\M8266WIFI_ops.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.obj: ../Core/hand/M8266WIFI/test_m8266wifi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\test_m8266wifi.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\test_m8266wifi.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\test_m8266wifi.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\test_m8266wifi.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\M8266WIFI\test_m8266wifi.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\M8266WIFI\test_m8266wifi.c.s
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.obj: ../Core/hand/spo2/spo2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\spo2\spo2.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\spo2\spo2.c
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\spo2\spo2.c > CMakeFiles\OSAHS_project.elf.dir\Core\hand\spo2\spo2.c.i
+
+CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Core\hand\spo2\spo2.c -o CMakeFiles\OSAHS_project.elf.dir\Core\hand\spo2\spo2.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c > CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.obj: ../FATFS/App/fatfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\FATFS\App\fatfs.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\FATFS\App\fatfs.c
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\FATFS\App\fatfs.c > CMakeFiles\OSAHS_project.elf.dir\FATFS\App\fatfs.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\FATFS\App\fatfs.c -o CMakeFiles\OSAHS_project.elf.dir\FATFS\App\fatfs.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: ../FATFS/Target/bsp_driver_sd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\bsp_driver_sd.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\bsp_driver_sd.c
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\bsp_driver_sd.c > CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\bsp_driver_sd.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\bsp_driver_sd.c -o CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\bsp_driver_sd.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.obj: ../FATFS/Target/fatfs_platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\fatfs_platform.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\fatfs_platform.c
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\fatfs_platform.c > CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\fatfs_platform.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\fatfs_platform.c -o CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\fatfs_platform.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.obj: ../FATFS/Target/sd_diskio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\sd_diskio.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\sd_diskio.c
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\sd_diskio.c > CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\sd_diskio.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\FATFS\Target\sd_diskio.c -o CMakeFiles\OSAHS_project.elf.dir\FATFS\Target\sd_diskio.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.obj: ../LCD/GUI.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\LCD\GUI.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\LCD\GUI.c
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\LCD\GUI.c > CMakeFiles\OSAHS_project.elf.dir\LCD\GUI.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\LCD\GUI.c -o CMakeFiles\OSAHS_project.elf.dir\LCD\GUI.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.obj: ../LCD/lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\LCD\lcd.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\LCD\lcd.c
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\LCD\lcd.c > CMakeFiles\OSAHS_project.elf.dir\LCD\lcd.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\LCD\lcd.c -o CMakeFiles\OSAHS_project.elf.dir\LCD\lcd.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.obj: ../LCD/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\LCD\test.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\LCD\test.c
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\LCD\test.c > CMakeFiles\OSAHS_project.elf.dir\LCD\test.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\LCD\test.c -o CMakeFiles\OSAHS_project.elf.dir\LCD\test.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.obj: ../M8266WIFI/M8266HostIf_STM32xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\M8266HostIf_STM32xx.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\M8266HostIf_STM32xx.c
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\M8266HostIf_STM32xx.c > CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\M8266HostIf_STM32xx.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\M8266HostIf_STM32xx.c -o CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\M8266HostIf_STM32xx.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.obj: ../M8266WIFI/M8266WIFI_ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\M8266WIFI_ops.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\M8266WIFI_ops.c
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\M8266WIFI_ops.c > CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\M8266WIFI_ops.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\M8266WIFI_ops.c -o CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\M8266WIFI_ops.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.obj: ../M8266WIFI/test_m8266wifi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\test_m8266wifi.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\test_m8266wifi.c
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\test_m8266wifi.c > CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\test_m8266wifi.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\M8266WIFI\test_m8266wifi.c -o CMakeFiles\OSAHS_project.elf.dir\M8266WIFI\test_m8266wifi.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c -o CMakeFiles\OSAHS_project.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: ../Middlewares/Third_Party/FatFs/src/diskio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\diskio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\diskio.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\diskio.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\diskio.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\diskio.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\diskio.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: ../Middlewares/Third_Party/FatFs/src/ff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: ../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj: ../Middlewares/Third_Party/FatFs/src/option/ccsbcs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/ccsbcs.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\ccsbcs.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: ../Middlewares/Third_Party/FatFs/src/option/syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\syscall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\syscall.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\syscall.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
 
 CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
-
-CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
-CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.obj: ../spo2/spo2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\spo2\spo2.c.obj -c C:\Users\jjj\Desktop\OSAHS_project\spo2\spo2.c
-
-CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\spo2\spo2.c > CMakeFiles\OSAHS_project.elf.dir\spo2\spo2.c.i
-
-CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\spo2\spo2.c -o CMakeFiles\OSAHS_project.elf.dir\spo2\spo2.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\OSAHS_project.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
 
 CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/OSAHS_project.elf.dir/flags.make
 CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building ASM object CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\startup\startup_stm32f407xx.s.obj -c C:\Users\jjj\Desktop\OSAHS_project\startup\startup_stm32f407xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building ASM object CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\OSAHS_project.elf.dir\startup\startup_stm32f407xx.s.obj -c C:\Users\jjj\Desktop\osahs\OSAHS_project\startup\startup_stm32f407xx.s
 
 CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\jjj\Desktop\OSAHS_project\startup\startup_stm32f407xx.s > CMakeFiles\OSAHS_project.elf.dir\startup\startup_stm32f407xx.s.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\jjj\Desktop\osahs\OSAHS_project\startup\startup_stm32f407xx.s > CMakeFiles\OSAHS_project.elf.dir\startup\startup_stm32f407xx.s.i
 
 CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\jjj\Desktop\OSAHS_project\startup\startup_stm32f407xx.s -o CMakeFiles\OSAHS_project.elf.dir\startup\startup_stm32f407xx.s.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\jjj\Desktop\osahs\OSAHS_project\startup\startup_stm32f407xx.s -o CMakeFiles\OSAHS_project.elf.dir\startup\startup_stm32f407xx.s.s
 
 # Object files for target OSAHS_project.elf
 OSAHS_project_elf_OBJECTS = \
-"CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.obj" \
@@ -914,6 +913,18 @@ OSAHS_project_elf_OBJECTS = \
 "CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.obj" \
+"CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" \
@@ -936,16 +947,6 @@ OSAHS_project_elf_OBJECTS = \
 "CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" \
@@ -961,13 +962,11 @@ OSAHS_project_elf_OBJECTS = \
 "CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
-"CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.obj" \
 "CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.obj"
 
 # External object files for target OSAHS_project.elf
 OSAHS_project_elf_EXTERNAL_OBJECTS =
 
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/adc.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/dma.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/freertos.c.obj
@@ -982,6 +981,18 @@ OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/syscalls.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/system_stm32f4xx.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/tim.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.obj
+OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
@@ -1004,16 +1015,6 @@ OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
@@ -1029,17 +1030,16 @@ OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/Free
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/startup/startup_stm32f407xx.s.obj
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/build.make
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/objects1.rsp
 OSAHS_project.elf: CMakeFiles/OSAHS_project.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking C executable OSAHS_project.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking C executable OSAHS_project.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OSAHS_project.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/OSAHS_project.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/OSAHS_project.bin"
-	arm-none-eabi-objcopy -Oihex C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/OSAHS_project.elf C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/OSAHS_project.hex
-	arm-none-eabi-objcopy -Obinary C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/OSAHS_project.elf C:/Users/jjj/Desktop/OSAHS_project/cmake-build-debug/OSAHS_project.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/OSAHS_project.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/OSAHS_project.bin"
+	arm-none-eabi-objcopy -Oihex C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/OSAHS_project.elf C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/OSAHS_project.hex
+	arm-none-eabi-objcopy -Obinary C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/OSAHS_project.elf C:/Users/jjj/Desktop/osahs/OSAHS_project/cmake-build-debug/OSAHS_project.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/OSAHS_project.elf.dir/build: OSAHS_project.elf
@@ -1050,6 +1050,6 @@ CMakeFiles/OSAHS_project.elf.dir/clean:
 .PHONY : CMakeFiles/OSAHS_project.elf.dir/clean
 
 CMakeFiles/OSAHS_project.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jjj\Desktop\OSAHS_project C:\Users\jjj\Desktop\OSAHS_project C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles\OSAHS_project.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\jjj\Desktop\osahs\OSAHS_project C:\Users\jjj\Desktop\osahs\OSAHS_project C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles\OSAHS_project.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OSAHS_project.elf.dir/depend
 

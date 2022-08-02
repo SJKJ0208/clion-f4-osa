@@ -47,16 +47,16 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/M8266WIFI)
+LINK_DIRECTORIES(Core/hand/M8266WIFI)
 
 include_directories(
         Core/Inc
-        FATFS/Target
-        FATFS/App
-        LCD
-        M8266WIFI
-        ADS1299
-        spo2
+        Core/hand/FATFS/Target
+        Core/hand/FATFS/App
+        Core/hand/LCD
+        Core/hand/M8266WIFI
+        Core/hand/ADS1299
+        Core/hand/spo2
         Drivers/STM32F4xx_HAL_Driver/Inc
         Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
         Middlewares/Third_Party/FreeRTOS/Source/include
@@ -68,7 +68,7 @@ include_directories(
 
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F407xx)
 
-file(GLOB_RECURSE SOURCES "startup/*.*" "Middlewares/*.*" "Drivers/*.*" "FATFS/*.*" "Core/*.*" "ADS1299/*.*" "LCD/*.*" "M8266WIFI/*.*" "spo2/*.*")
+file(GLOB_RECURSE SOURCES "startup/*.*" "Middlewares/*.*" "Drivers/*.*" "Core/hand/FATFS/*.*" "Core/*.*" "Core/hand/ADS1299/*.*" "Core/hand/LCD/*.*" "Core/hand/M8266WIFI/*.*" "Core/hand/spo2/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407VETx_FLASH.ld)
 

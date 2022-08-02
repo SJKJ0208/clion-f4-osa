@@ -56,10 +56,10 @@ RM = "G:\a-soft\code_soft\clion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\jjj\Desktop\OSAHS_project
+CMAKE_SOURCE_DIR = C:\Users\jjj\Desktop\osahs\OSAHS_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jjj\Desktop\OSAHS_project\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jjj\Desktop\osahs\OSAHS_project\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,30 +127,6 @@ OSAHS_project.elf: cmake_check_build_system
 OSAHS_project.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/build
 .PHONY : OSAHS_project.elf/fast
-
-ADS1299/ADS1298.obj: ADS1299/ADS1298.c.obj
-.PHONY : ADS1299/ADS1298.obj
-
-# target to build an object file
-ADS1299/ADS1298.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.obj
-.PHONY : ADS1299/ADS1298.c.obj
-
-ADS1299/ADS1298.i: ADS1299/ADS1298.c.i
-.PHONY : ADS1299/ADS1298.i
-
-# target to preprocess a source file
-ADS1299/ADS1298.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.i
-.PHONY : ADS1299/ADS1298.c.i
-
-ADS1299/ADS1298.s: ADS1299/ADS1298.c.s
-.PHONY : ADS1299/ADS1298.s
-
-# target to generate assembly for a file
-ADS1299/ADS1298.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/ADS1299/ADS1298.c.s
-.PHONY : ADS1299/ADS1298.c.s
 
 Core/Src/adc.obj: Core/Src/adc.c.obj
 .PHONY : Core/Src/adc.obj
@@ -487,6 +463,294 @@ Core/Src/usart.s: Core/Src/usart.c.s
 Core/Src/usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/Src/usart.c.s
 .PHONY : Core/Src/usart.c.s
+
+Core/hand/ADS1299/ADS1298.obj: Core/hand/ADS1299/ADS1298.c.obj
+.PHONY : Core/hand/ADS1299/ADS1298.obj
+
+# target to build an object file
+Core/hand/ADS1299/ADS1298.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.obj
+.PHONY : Core/hand/ADS1299/ADS1298.c.obj
+
+Core/hand/ADS1299/ADS1298.i: Core/hand/ADS1299/ADS1298.c.i
+.PHONY : Core/hand/ADS1299/ADS1298.i
+
+# target to preprocess a source file
+Core/hand/ADS1299/ADS1298.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.i
+.PHONY : Core/hand/ADS1299/ADS1298.c.i
+
+Core/hand/ADS1299/ADS1298.s: Core/hand/ADS1299/ADS1298.c.s
+.PHONY : Core/hand/ADS1299/ADS1298.s
+
+# target to generate assembly for a file
+Core/hand/ADS1299/ADS1298.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/ADS1299/ADS1298.c.s
+.PHONY : Core/hand/ADS1299/ADS1298.c.s
+
+Core/hand/FATFS/App/fatfs.obj: Core/hand/FATFS/App/fatfs.c.obj
+.PHONY : Core/hand/FATFS/App/fatfs.obj
+
+# target to build an object file
+Core/hand/FATFS/App/fatfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.obj
+.PHONY : Core/hand/FATFS/App/fatfs.c.obj
+
+Core/hand/FATFS/App/fatfs.i: Core/hand/FATFS/App/fatfs.c.i
+.PHONY : Core/hand/FATFS/App/fatfs.i
+
+# target to preprocess a source file
+Core/hand/FATFS/App/fatfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.i
+.PHONY : Core/hand/FATFS/App/fatfs.c.i
+
+Core/hand/FATFS/App/fatfs.s: Core/hand/FATFS/App/fatfs.c.s
+.PHONY : Core/hand/FATFS/App/fatfs.s
+
+# target to generate assembly for a file
+Core/hand/FATFS/App/fatfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/App/fatfs.c.s
+.PHONY : Core/hand/FATFS/App/fatfs.c.s
+
+Core/hand/FATFS/Target/bsp_driver_sd.obj: Core/hand/FATFS/Target/bsp_driver_sd.c.obj
+.PHONY : Core/hand/FATFS/Target/bsp_driver_sd.obj
+
+# target to build an object file
+Core/hand/FATFS/Target/bsp_driver_sd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.obj
+.PHONY : Core/hand/FATFS/Target/bsp_driver_sd.c.obj
+
+Core/hand/FATFS/Target/bsp_driver_sd.i: Core/hand/FATFS/Target/bsp_driver_sd.c.i
+.PHONY : Core/hand/FATFS/Target/bsp_driver_sd.i
+
+# target to preprocess a source file
+Core/hand/FATFS/Target/bsp_driver_sd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.i
+.PHONY : Core/hand/FATFS/Target/bsp_driver_sd.c.i
+
+Core/hand/FATFS/Target/bsp_driver_sd.s: Core/hand/FATFS/Target/bsp_driver_sd.c.s
+.PHONY : Core/hand/FATFS/Target/bsp_driver_sd.s
+
+# target to generate assembly for a file
+Core/hand/FATFS/Target/bsp_driver_sd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/bsp_driver_sd.c.s
+.PHONY : Core/hand/FATFS/Target/bsp_driver_sd.c.s
+
+Core/hand/FATFS/Target/fatfs_platform.obj: Core/hand/FATFS/Target/fatfs_platform.c.obj
+.PHONY : Core/hand/FATFS/Target/fatfs_platform.obj
+
+# target to build an object file
+Core/hand/FATFS/Target/fatfs_platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.obj
+.PHONY : Core/hand/FATFS/Target/fatfs_platform.c.obj
+
+Core/hand/FATFS/Target/fatfs_platform.i: Core/hand/FATFS/Target/fatfs_platform.c.i
+.PHONY : Core/hand/FATFS/Target/fatfs_platform.i
+
+# target to preprocess a source file
+Core/hand/FATFS/Target/fatfs_platform.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.i
+.PHONY : Core/hand/FATFS/Target/fatfs_platform.c.i
+
+Core/hand/FATFS/Target/fatfs_platform.s: Core/hand/FATFS/Target/fatfs_platform.c.s
+.PHONY : Core/hand/FATFS/Target/fatfs_platform.s
+
+# target to generate assembly for a file
+Core/hand/FATFS/Target/fatfs_platform.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/fatfs_platform.c.s
+.PHONY : Core/hand/FATFS/Target/fatfs_platform.c.s
+
+Core/hand/FATFS/Target/sd_diskio.obj: Core/hand/FATFS/Target/sd_diskio.c.obj
+.PHONY : Core/hand/FATFS/Target/sd_diskio.obj
+
+# target to build an object file
+Core/hand/FATFS/Target/sd_diskio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.obj
+.PHONY : Core/hand/FATFS/Target/sd_diskio.c.obj
+
+Core/hand/FATFS/Target/sd_diskio.i: Core/hand/FATFS/Target/sd_diskio.c.i
+.PHONY : Core/hand/FATFS/Target/sd_diskio.i
+
+# target to preprocess a source file
+Core/hand/FATFS/Target/sd_diskio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.i
+.PHONY : Core/hand/FATFS/Target/sd_diskio.c.i
+
+Core/hand/FATFS/Target/sd_diskio.s: Core/hand/FATFS/Target/sd_diskio.c.s
+.PHONY : Core/hand/FATFS/Target/sd_diskio.s
+
+# target to generate assembly for a file
+Core/hand/FATFS/Target/sd_diskio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/FATFS/Target/sd_diskio.c.s
+.PHONY : Core/hand/FATFS/Target/sd_diskio.c.s
+
+Core/hand/LCD/GUI.obj: Core/hand/LCD/GUI.c.obj
+.PHONY : Core/hand/LCD/GUI.obj
+
+# target to build an object file
+Core/hand/LCD/GUI.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.obj
+.PHONY : Core/hand/LCD/GUI.c.obj
+
+Core/hand/LCD/GUI.i: Core/hand/LCD/GUI.c.i
+.PHONY : Core/hand/LCD/GUI.i
+
+# target to preprocess a source file
+Core/hand/LCD/GUI.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.i
+.PHONY : Core/hand/LCD/GUI.c.i
+
+Core/hand/LCD/GUI.s: Core/hand/LCD/GUI.c.s
+.PHONY : Core/hand/LCD/GUI.s
+
+# target to generate assembly for a file
+Core/hand/LCD/GUI.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/GUI.c.s
+.PHONY : Core/hand/LCD/GUI.c.s
+
+Core/hand/LCD/lcd.obj: Core/hand/LCD/lcd.c.obj
+.PHONY : Core/hand/LCD/lcd.obj
+
+# target to build an object file
+Core/hand/LCD/lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.obj
+.PHONY : Core/hand/LCD/lcd.c.obj
+
+Core/hand/LCD/lcd.i: Core/hand/LCD/lcd.c.i
+.PHONY : Core/hand/LCD/lcd.i
+
+# target to preprocess a source file
+Core/hand/LCD/lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.i
+.PHONY : Core/hand/LCD/lcd.c.i
+
+Core/hand/LCD/lcd.s: Core/hand/LCD/lcd.c.s
+.PHONY : Core/hand/LCD/lcd.s
+
+# target to generate assembly for a file
+Core/hand/LCD/lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/lcd.c.s
+.PHONY : Core/hand/LCD/lcd.c.s
+
+Core/hand/LCD/test.obj: Core/hand/LCD/test.c.obj
+.PHONY : Core/hand/LCD/test.obj
+
+# target to build an object file
+Core/hand/LCD/test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.obj
+.PHONY : Core/hand/LCD/test.c.obj
+
+Core/hand/LCD/test.i: Core/hand/LCD/test.c.i
+.PHONY : Core/hand/LCD/test.i
+
+# target to preprocess a source file
+Core/hand/LCD/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.i
+.PHONY : Core/hand/LCD/test.c.i
+
+Core/hand/LCD/test.s: Core/hand/LCD/test.c.s
+.PHONY : Core/hand/LCD/test.s
+
+# target to generate assembly for a file
+Core/hand/LCD/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/LCD/test.c.s
+.PHONY : Core/hand/LCD/test.c.s
+
+Core/hand/M8266WIFI/M8266HostIf_STM32xx.obj: Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj
+.PHONY : Core/hand/M8266WIFI/M8266HostIf_STM32xx.obj
+
+# target to build an object file
+Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj
+.PHONY : Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.obj
+
+Core/hand/M8266WIFI/M8266HostIf_STM32xx.i: Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.i
+.PHONY : Core/hand/M8266WIFI/M8266HostIf_STM32xx.i
+
+# target to preprocess a source file
+Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.i
+.PHONY : Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.i
+
+Core/hand/M8266WIFI/M8266HostIf_STM32xx.s: Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.s
+.PHONY : Core/hand/M8266WIFI/M8266HostIf_STM32xx.s
+
+# target to generate assembly for a file
+Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.s
+.PHONY : Core/hand/M8266WIFI/M8266HostIf_STM32xx.c.s
+
+Core/hand/M8266WIFI/M8266WIFI_ops.obj: Core/hand/M8266WIFI/M8266WIFI_ops.c.obj
+.PHONY : Core/hand/M8266WIFI/M8266WIFI_ops.obj
+
+# target to build an object file
+Core/hand/M8266WIFI/M8266WIFI_ops.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.obj
+.PHONY : Core/hand/M8266WIFI/M8266WIFI_ops.c.obj
+
+Core/hand/M8266WIFI/M8266WIFI_ops.i: Core/hand/M8266WIFI/M8266WIFI_ops.c.i
+.PHONY : Core/hand/M8266WIFI/M8266WIFI_ops.i
+
+# target to preprocess a source file
+Core/hand/M8266WIFI/M8266WIFI_ops.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.i
+.PHONY : Core/hand/M8266WIFI/M8266WIFI_ops.c.i
+
+Core/hand/M8266WIFI/M8266WIFI_ops.s: Core/hand/M8266WIFI/M8266WIFI_ops.c.s
+.PHONY : Core/hand/M8266WIFI/M8266WIFI_ops.s
+
+# target to generate assembly for a file
+Core/hand/M8266WIFI/M8266WIFI_ops.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/M8266WIFI_ops.c.s
+.PHONY : Core/hand/M8266WIFI/M8266WIFI_ops.c.s
+
+Core/hand/M8266WIFI/test_m8266wifi.obj: Core/hand/M8266WIFI/test_m8266wifi.c.obj
+.PHONY : Core/hand/M8266WIFI/test_m8266wifi.obj
+
+# target to build an object file
+Core/hand/M8266WIFI/test_m8266wifi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.obj
+.PHONY : Core/hand/M8266WIFI/test_m8266wifi.c.obj
+
+Core/hand/M8266WIFI/test_m8266wifi.i: Core/hand/M8266WIFI/test_m8266wifi.c.i
+.PHONY : Core/hand/M8266WIFI/test_m8266wifi.i
+
+# target to preprocess a source file
+Core/hand/M8266WIFI/test_m8266wifi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.i
+.PHONY : Core/hand/M8266WIFI/test_m8266wifi.c.i
+
+Core/hand/M8266WIFI/test_m8266wifi.s: Core/hand/M8266WIFI/test_m8266wifi.c.s
+.PHONY : Core/hand/M8266WIFI/test_m8266wifi.s
+
+# target to generate assembly for a file
+Core/hand/M8266WIFI/test_m8266wifi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/M8266WIFI/test_m8266wifi.c.s
+.PHONY : Core/hand/M8266WIFI/test_m8266wifi.c.s
+
+Core/hand/spo2/spo2.obj: Core/hand/spo2/spo2.c.obj
+.PHONY : Core/hand/spo2/spo2.obj
+
+# target to build an object file
+Core/hand/spo2/spo2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.obj
+.PHONY : Core/hand/spo2/spo2.c.obj
+
+Core/hand/spo2/spo2.i: Core/hand/spo2/spo2.c.i
+.PHONY : Core/hand/spo2/spo2.i
+
+# target to preprocess a source file
+Core/hand/spo2/spo2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.i
+.PHONY : Core/hand/spo2/spo2.c.i
+
+Core/hand/spo2/spo2.s: Core/hand/spo2/spo2.c.s
+.PHONY : Core/hand/spo2/spo2.s
+
+# target to generate assembly for a file
+Core/hand/spo2/spo2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Core/hand/spo2/spo2.c.s
+.PHONY : Core/hand/spo2/spo2.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -1016,246 +1280,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.s
 
-FATFS/App/fatfs.obj: FATFS/App/fatfs.c.obj
-.PHONY : FATFS/App/fatfs.obj
-
-# target to build an object file
-FATFS/App/fatfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.obj
-.PHONY : FATFS/App/fatfs.c.obj
-
-FATFS/App/fatfs.i: FATFS/App/fatfs.c.i
-.PHONY : FATFS/App/fatfs.i
-
-# target to preprocess a source file
-FATFS/App/fatfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.i
-.PHONY : FATFS/App/fatfs.c.i
-
-FATFS/App/fatfs.s: FATFS/App/fatfs.c.s
-.PHONY : FATFS/App/fatfs.s
-
-# target to generate assembly for a file
-FATFS/App/fatfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/App/fatfs.c.s
-.PHONY : FATFS/App/fatfs.c.s
-
-FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
-.PHONY : FATFS/Target/bsp_driver_sd.obj
-
-# target to build an object file
-FATFS/Target/bsp_driver_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
-.PHONY : FATFS/Target/bsp_driver_sd.c.obj
-
-FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
-.PHONY : FATFS/Target/bsp_driver_sd.i
-
-# target to preprocess a source file
-FATFS/Target/bsp_driver_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.i
-.PHONY : FATFS/Target/bsp_driver_sd.c.i
-
-FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
-.PHONY : FATFS/Target/bsp_driver_sd.s
-
-# target to generate assembly for a file
-FATFS/Target/bsp_driver_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/bsp_driver_sd.c.s
-.PHONY : FATFS/Target/bsp_driver_sd.c.s
-
-FATFS/Target/fatfs_platform.obj: FATFS/Target/fatfs_platform.c.obj
-.PHONY : FATFS/Target/fatfs_platform.obj
-
-# target to build an object file
-FATFS/Target/fatfs_platform.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.obj
-.PHONY : FATFS/Target/fatfs_platform.c.obj
-
-FATFS/Target/fatfs_platform.i: FATFS/Target/fatfs_platform.c.i
-.PHONY : FATFS/Target/fatfs_platform.i
-
-# target to preprocess a source file
-FATFS/Target/fatfs_platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.i
-.PHONY : FATFS/Target/fatfs_platform.c.i
-
-FATFS/Target/fatfs_platform.s: FATFS/Target/fatfs_platform.c.s
-.PHONY : FATFS/Target/fatfs_platform.s
-
-# target to generate assembly for a file
-FATFS/Target/fatfs_platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/fatfs_platform.c.s
-.PHONY : FATFS/Target/fatfs_platform.c.s
-
-FATFS/Target/sd_diskio.obj: FATFS/Target/sd_diskio.c.obj
-.PHONY : FATFS/Target/sd_diskio.obj
-
-# target to build an object file
-FATFS/Target/sd_diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.obj
-.PHONY : FATFS/Target/sd_diskio.c.obj
-
-FATFS/Target/sd_diskio.i: FATFS/Target/sd_diskio.c.i
-.PHONY : FATFS/Target/sd_diskio.i
-
-# target to preprocess a source file
-FATFS/Target/sd_diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.i
-.PHONY : FATFS/Target/sd_diskio.c.i
-
-FATFS/Target/sd_diskio.s: FATFS/Target/sd_diskio.c.s
-.PHONY : FATFS/Target/sd_diskio.s
-
-# target to generate assembly for a file
-FATFS/Target/sd_diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/FATFS/Target/sd_diskio.c.s
-.PHONY : FATFS/Target/sd_diskio.c.s
-
-LCD/GUI.obj: LCD/GUI.c.obj
-.PHONY : LCD/GUI.obj
-
-# target to build an object file
-LCD/GUI.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.obj
-.PHONY : LCD/GUI.c.obj
-
-LCD/GUI.i: LCD/GUI.c.i
-.PHONY : LCD/GUI.i
-
-# target to preprocess a source file
-LCD/GUI.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.i
-.PHONY : LCD/GUI.c.i
-
-LCD/GUI.s: LCD/GUI.c.s
-.PHONY : LCD/GUI.s
-
-# target to generate assembly for a file
-LCD/GUI.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/GUI.c.s
-.PHONY : LCD/GUI.c.s
-
-LCD/lcd.obj: LCD/lcd.c.obj
-.PHONY : LCD/lcd.obj
-
-# target to build an object file
-LCD/lcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.obj
-.PHONY : LCD/lcd.c.obj
-
-LCD/lcd.i: LCD/lcd.c.i
-.PHONY : LCD/lcd.i
-
-# target to preprocess a source file
-LCD/lcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.i
-.PHONY : LCD/lcd.c.i
-
-LCD/lcd.s: LCD/lcd.c.s
-.PHONY : LCD/lcd.s
-
-# target to generate assembly for a file
-LCD/lcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/lcd.c.s
-.PHONY : LCD/lcd.c.s
-
-LCD/test.obj: LCD/test.c.obj
-.PHONY : LCD/test.obj
-
-# target to build an object file
-LCD/test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.obj
-.PHONY : LCD/test.c.obj
-
-LCD/test.i: LCD/test.c.i
-.PHONY : LCD/test.i
-
-# target to preprocess a source file
-LCD/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.i
-.PHONY : LCD/test.c.i
-
-LCD/test.s: LCD/test.c.s
-.PHONY : LCD/test.s
-
-# target to generate assembly for a file
-LCD/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/LCD/test.c.s
-.PHONY : LCD/test.c.s
-
-M8266WIFI/M8266HostIf_STM32xx.obj: M8266WIFI/M8266HostIf_STM32xx.c.obj
-.PHONY : M8266WIFI/M8266HostIf_STM32xx.obj
-
-# target to build an object file
-M8266WIFI/M8266HostIf_STM32xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.obj
-.PHONY : M8266WIFI/M8266HostIf_STM32xx.c.obj
-
-M8266WIFI/M8266HostIf_STM32xx.i: M8266WIFI/M8266HostIf_STM32xx.c.i
-.PHONY : M8266WIFI/M8266HostIf_STM32xx.i
-
-# target to preprocess a source file
-M8266WIFI/M8266HostIf_STM32xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.i
-.PHONY : M8266WIFI/M8266HostIf_STM32xx.c.i
-
-M8266WIFI/M8266HostIf_STM32xx.s: M8266WIFI/M8266HostIf_STM32xx.c.s
-.PHONY : M8266WIFI/M8266HostIf_STM32xx.s
-
-# target to generate assembly for a file
-M8266WIFI/M8266HostIf_STM32xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266HostIf_STM32xx.c.s
-.PHONY : M8266WIFI/M8266HostIf_STM32xx.c.s
-
-M8266WIFI/M8266WIFI_ops.obj: M8266WIFI/M8266WIFI_ops.c.obj
-.PHONY : M8266WIFI/M8266WIFI_ops.obj
-
-# target to build an object file
-M8266WIFI/M8266WIFI_ops.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.obj
-.PHONY : M8266WIFI/M8266WIFI_ops.c.obj
-
-M8266WIFI/M8266WIFI_ops.i: M8266WIFI/M8266WIFI_ops.c.i
-.PHONY : M8266WIFI/M8266WIFI_ops.i
-
-# target to preprocess a source file
-M8266WIFI/M8266WIFI_ops.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.i
-.PHONY : M8266WIFI/M8266WIFI_ops.c.i
-
-M8266WIFI/M8266WIFI_ops.s: M8266WIFI/M8266WIFI_ops.c.s
-.PHONY : M8266WIFI/M8266WIFI_ops.s
-
-# target to generate assembly for a file
-M8266WIFI/M8266WIFI_ops.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/M8266WIFI_ops.c.s
-.PHONY : M8266WIFI/M8266WIFI_ops.c.s
-
-M8266WIFI/test_m8266wifi.obj: M8266WIFI/test_m8266wifi.c.obj
-.PHONY : M8266WIFI/test_m8266wifi.obj
-
-# target to build an object file
-M8266WIFI/test_m8266wifi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.obj
-.PHONY : M8266WIFI/test_m8266wifi.c.obj
-
-M8266WIFI/test_m8266wifi.i: M8266WIFI/test_m8266wifi.c.i
-.PHONY : M8266WIFI/test_m8266wifi.i
-
-# target to preprocess a source file
-M8266WIFI/test_m8266wifi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.i
-.PHONY : M8266WIFI/test_m8266wifi.c.i
-
-M8266WIFI/test_m8266wifi.s: M8266WIFI/test_m8266wifi.c.s
-.PHONY : M8266WIFI/test_m8266wifi.s
-
-# target to generate assembly for a file
-M8266WIFI/test_m8266wifi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/M8266WIFI/test_m8266wifi.c.s
-.PHONY : M8266WIFI/test_m8266wifi.c.s
-
 Middlewares/Third_Party/FatFs/src/diskio.obj: Middlewares/Third_Party/FatFs/src/diskio.c.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.obj
 
@@ -1616,30 +1640,6 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
-spo2/spo2.obj: spo2/spo2.c.obj
-.PHONY : spo2/spo2.obj
-
-# target to build an object file
-spo2/spo2.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.obj
-.PHONY : spo2/spo2.c.obj
-
-spo2/spo2.i: spo2/spo2.c.i
-.PHONY : spo2/spo2.i
-
-# target to preprocess a source file
-spo2/spo2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.i
-.PHONY : spo2/spo2.c.i
-
-spo2/spo2.s: spo2/spo2.c.s
-.PHONY : spo2/spo2.s
-
-# target to generate assembly for a file
-spo2/spo2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OSAHS_project.elf.dir\build.make CMakeFiles/OSAHS_project.elf.dir/spo2/spo2.c.s
-.PHONY : spo2/spo2.c.s
-
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 .PHONY : startup/startup_stm32f407xx.obj
 
@@ -1657,9 +1657,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OSAHS_project.elf
-	@echo ... ADS1299/ADS1298.obj
-	@echo ... ADS1299/ADS1298.i
-	@echo ... ADS1299/ADS1298.s
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s
@@ -1702,6 +1699,42 @@ help:
 	@echo ... Core/Src/usart.obj
 	@echo ... Core/Src/usart.i
 	@echo ... Core/Src/usart.s
+	@echo ... Core/hand/ADS1299/ADS1298.obj
+	@echo ... Core/hand/ADS1299/ADS1298.i
+	@echo ... Core/hand/ADS1299/ADS1298.s
+	@echo ... Core/hand/FATFS/App/fatfs.obj
+	@echo ... Core/hand/FATFS/App/fatfs.i
+	@echo ... Core/hand/FATFS/App/fatfs.s
+	@echo ... Core/hand/FATFS/Target/bsp_driver_sd.obj
+	@echo ... Core/hand/FATFS/Target/bsp_driver_sd.i
+	@echo ... Core/hand/FATFS/Target/bsp_driver_sd.s
+	@echo ... Core/hand/FATFS/Target/fatfs_platform.obj
+	@echo ... Core/hand/FATFS/Target/fatfs_platform.i
+	@echo ... Core/hand/FATFS/Target/fatfs_platform.s
+	@echo ... Core/hand/FATFS/Target/sd_diskio.obj
+	@echo ... Core/hand/FATFS/Target/sd_diskio.i
+	@echo ... Core/hand/FATFS/Target/sd_diskio.s
+	@echo ... Core/hand/LCD/GUI.obj
+	@echo ... Core/hand/LCD/GUI.i
+	@echo ... Core/hand/LCD/GUI.s
+	@echo ... Core/hand/LCD/lcd.obj
+	@echo ... Core/hand/LCD/lcd.i
+	@echo ... Core/hand/LCD/lcd.s
+	@echo ... Core/hand/LCD/test.obj
+	@echo ... Core/hand/LCD/test.i
+	@echo ... Core/hand/LCD/test.s
+	@echo ... Core/hand/M8266WIFI/M8266HostIf_STM32xx.obj
+	@echo ... Core/hand/M8266WIFI/M8266HostIf_STM32xx.i
+	@echo ... Core/hand/M8266WIFI/M8266HostIf_STM32xx.s
+	@echo ... Core/hand/M8266WIFI/M8266WIFI_ops.obj
+	@echo ... Core/hand/M8266WIFI/M8266WIFI_ops.i
+	@echo ... Core/hand/M8266WIFI/M8266WIFI_ops.s
+	@echo ... Core/hand/M8266WIFI/test_m8266wifi.obj
+	@echo ... Core/hand/M8266WIFI/test_m8266wifi.i
+	@echo ... Core/hand/M8266WIFI/test_m8266wifi.s
+	@echo ... Core/hand/spo2/spo2.obj
+	@echo ... Core/hand/spo2/spo2.i
+	@echo ... Core/hand/spo2/spo2.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -1768,36 +1801,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.s
-	@echo ... FATFS/App/fatfs.obj
-	@echo ... FATFS/App/fatfs.i
-	@echo ... FATFS/App/fatfs.s
-	@echo ... FATFS/Target/bsp_driver_sd.obj
-	@echo ... FATFS/Target/bsp_driver_sd.i
-	@echo ... FATFS/Target/bsp_driver_sd.s
-	@echo ... FATFS/Target/fatfs_platform.obj
-	@echo ... FATFS/Target/fatfs_platform.i
-	@echo ... FATFS/Target/fatfs_platform.s
-	@echo ... FATFS/Target/sd_diskio.obj
-	@echo ... FATFS/Target/sd_diskio.i
-	@echo ... FATFS/Target/sd_diskio.s
-	@echo ... LCD/GUI.obj
-	@echo ... LCD/GUI.i
-	@echo ... LCD/GUI.s
-	@echo ... LCD/lcd.obj
-	@echo ... LCD/lcd.i
-	@echo ... LCD/lcd.s
-	@echo ... LCD/test.obj
-	@echo ... LCD/test.i
-	@echo ... LCD/test.s
-	@echo ... M8266WIFI/M8266HostIf_STM32xx.obj
-	@echo ... M8266WIFI/M8266HostIf_STM32xx.i
-	@echo ... M8266WIFI/M8266HostIf_STM32xx.s
-	@echo ... M8266WIFI/M8266WIFI_ops.obj
-	@echo ... M8266WIFI/M8266WIFI_ops.i
-	@echo ... M8266WIFI/M8266WIFI_ops.s
-	@echo ... M8266WIFI/test_m8266wifi.obj
-	@echo ... M8266WIFI/test_m8266wifi.i
-	@echo ... M8266WIFI/test_m8266wifi.s
 	@echo ... Middlewares/Third_Party/FatFs/src/diskio.obj
 	@echo ... Middlewares/Third_Party/FatFs/src/diskio.i
 	@echo ... Middlewares/Third_Party/FatFs/src/diskio.s
@@ -1843,9 +1846,6 @@ help:
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
 	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
-	@echo ... spo2/spo2.obj
-	@echo ... spo2/spo2.i
-	@echo ... spo2/spo2.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 
