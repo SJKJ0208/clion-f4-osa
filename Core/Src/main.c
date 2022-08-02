@@ -35,9 +35,7 @@
 #include "M8266WIFI_ops.h"
 #include "ADS1298.h"
 #include "spo2.h"
-#include "lcd.h"
-#include "gui.h"
-#include "test.h"
+#include "InitTask.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -46,6 +44,7 @@
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
+typedef struct hal hal;
 /* USER CODE BEGIN PD */
 uint8_t tim3_count_seconds=0;
 /* USER CODE END PD */
@@ -199,21 +198,7 @@ int main(void)
   MX_SDIO_SD_Init();
   MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
-//		/****************LCD_init************************/
-//	LCD_Init();
-//	main_test();
-	/****************wifi_init************************/
-//	M8266WIFI_Module_Init_Via_SPI();
-//	M8266WIFI_Test();
-//	/****************ADS1299_init************************/
-////	ADS_Init();
-//	/****************spo2_init************************/
-//	spo2_init();
-//	/****************adc2_task_1s************************/
-//	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
-//	HAL_ADC_Start_DMA(&hadc2, (uint32_t*)&adc2_value,1);
-//	/****************breath_init************************/
-//	breath_init();
+
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */
@@ -279,13 +264,14 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-extern osSemaphoreId ADS_BinarySemHandle;
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	{
 	if(GPIO_Pin == EEG_DRDY_Pin)
 		{
 			//HAL_GPIO_TogglePin(led0_GPIO_Port,led0_Pin);
-		//INIT_DRDY = true;		
+		//INIT_DRDY = true;
+
 		//osSemaphoreRelease(ADS_BinarySemHandle);
 		BaseType_t  xHigherPriorityTaskWoken;
 		xSemaphoreGiveFromISR(ADS_BinarySemHandle,&xHigherPriorityTaskWoken);

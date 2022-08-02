@@ -3,41 +3,23 @@ wifi module initialization
 wifi module connect to wifi net (sta mode)
  ********************************************************************/
 #include "main.h"
-#include "stdio.h"
 #include "string.h"
 #include "M8266WIFIDrv.h"
 #include "M8266WIFI_ops.h"
-#include "usart.h"
-#include "lcd.h"
-#include "gui.h"
+
 
 #define M8266WIFI_INTERFACE_SPI  SPI3
 
 #define op_mode 3
-//#define wifi_name "gyfyy_ygww"
-//#define wifi_password "Gyfyy@1314"
-//#define wifi_name "xiaomi"
-//#define wifi_password "ASDFGHJKL"
-//#define wifi_name "OSAHS"
-//#define wifi_password "88888888"
-//#define wifi_name "401"
-//#define wifi_password "401401401"
 #define wifi_name "508"
 #define wifi_password "508508508508"
-//#define wifi_name "gyfyy"
-//#define wifi_password "Gyfyy@1314"
-//#define wifi_name "osahs"
-//#define wifi_password "88888888" 
 
-
+///wifi的标签
 int wifi_connect_flag=0;
+
 void M8266WIFI_Module_delay_ms(u16 nms)
 {
 	HAL_Delay(nms);
-//	u16 i, j;
-//	 for(i=0; i<nms; i++)
-//	   for(j=0; j<4; j++)									// delay 1ms. Call 4 times of delay_us(250), as M8266HostIf_delay_us(u8 nus), nus max 255
-//	      M8266HostIf_delay_us(250);      // Chinese: 调用4次delay_us(250)来实现延迟1ms，因为M8266HostIf_delay_us(u8 nus)的形参是u8类型，nus最大255.
 }
 
 /************************************************************************************************************************
@@ -70,9 +52,7 @@ void M8266WIFI_Module_Hardware_Reset(void) // total 800ms  (Chinese: 本例子�
 																					// (Chinese: 如果你的主机板在这里足够好，你可以缩短这里的延时来缩短复位周期；反之则需要加长这里的延时。
 																					//           总之，你可以调整这里的时间在你们的主机板上充分测试，找到一个合适的延时，确保每次复位都能成功。并适当保持一些富裕量，来兼容批量化时主板的个体性差异)
 	M8266HostIf_Set_SPI_nCS_Pin(1);         // release/pull-high(defualt) nCS upon reset completed (Chinese: 释放/拉高(缺省)片选信号
- //M8266WIFI_Module_delay_ms(1); 	    		// delay 1ms, adequate for nCS stable (Chinese: 延迟1毫秒，确保片选nCS设置后有足够的时间来稳定)
 	M8266WIFI_Module_delay_ms(493);
-  //M8266WIFI_Module_delay_ms(800-300-5-2); // Delay more than around 500ms for M8266WIFI module bootup and initialization，including bootup information print。No influence to host interface communication. Could be shorten upon necessary. But test for verification required if adjusted.
 	                                        // (Chinese: 延迟大约500毫秒，来等待模组成功复位后完成自己的启动过程和自身初始化，包括串口信息打印。但是此时不影响模组和单片主机之间的通信，这里的时间可以根据需要适当调整.如果调整缩短了这里的时间，建议充分测试，以确保系统(时序关系上的)可靠性)
 }
 /***********************************************************************************
@@ -144,70 +124,51 @@ u8 M8266WIFI_SPI_wait_sta_connecting_to_ap_and_get_ip(char* sta_ip, u8 max_wait_
      M8266WIFI_Module_delay_ms(1);
 
 	 //第三步：调用M8266HostIf_SPI_Select()。 在正式调用驱动API函数和模组进行通信之前，调用M8266HostIf_SPI_Select()来告诉驱动使用哪个SPI以及SPI的时钟有多快，这一点非常重要。
-	 //         如果没有调用这个API，单片机主机和模组之间将可能将无法通信)
+	 //如果没有调用这个API，单片机主机和模组之间将可能将无法通信)
     if(M8266HostIf_SPI_Select((uint32_t)M8266WIFI_INTERFACE_SPI, 	spi_clk , &status)==0)
 		{
 		   while(1)
 			 HAL_Delay(1000);
-			 	Gui_StrCenter(0,30,RED,BLUE,"wifi module init error",16,1);//居中显示
-			//	Gui_StrCenter(0,60,RED,BLUE,"综合测试程序",16,1);//居中显示	
-//			 printf("wifi module init error");			 
 		}
-	//	uint8_t   byte;
-//		spi_result=M8266WIFI_SPI_Interface_Communication_OK(&byte);
-//		spi_result=M8266WIFI_SPI_Interface_Communication_Stress_Test(100000);
 
-   // (第四步：配置模组)
-//如果你希望改变模组的op_mode，不使用模组启动时缺省op_mode，你可以这里改成 #if 1，并调整下面的API函数里的相关参数值
+         // (第四步：配置模组)
+        //如果你希望改变模组的op_mode，不使用模组启动时缺省op_mode，你可以这里改成 #if 1，并调整下面的API函数里的相关参数值
 		
 	if(M8266WIFI_SPI_Set_Opmode(op_mode, 0, &status)==0)
         // set to AP Only mode, not saved // 1=STA Only, 2=AP Only, 3=STA+AP
-        return 0;                                     //(Chinese: 设置为AP Only模式。1=STA Only, 2=AP Only, 3=STA+AP)
+        return 0;  //(Chinese: 设置为AP Only模式。1=STA Only, 2=AP Only, 3=STA+AP)
+            // 查询当前的op_mode，如果处于STA模式或者STA+AP模式，那么可根据需要执行配网去链接上第三方热点/路由器，并等待获取ip地址)
 
-//			if(M8266WIFI_SPI_Config_AP("OSAHSWIFI", "1234567890", 3, 6, 0, &status)==1)  // set to 4=WPA_WPA2_PSK, not saved // 0=OPEN, 1=WEP, 2=WPA_PSK, 3=WPA2_PSK, 4=WPA_WPA2_PSK
-//    {
-//			wifi_connect_flag=1;
-//		}
-//		else
-//		{
-//			wifi_connect_flag=0;
-//			return 0;
-//		}
-// 查询当前的op_mode，如果处于STA模式或者STA+AP模式，那么可根据需要执行配网去链接上第三方热点/路由器，并等待获取ip地址)
-  if(M8266WIFI_SPI_Get_Opmode(&sta_ap_mode, &status)==0)
-	{return 0;}
+    if(M8266WIFI_SPI_Get_Opmode(&sta_ap_mode, &status)==0)
+	{
+        return 0;
+    }
 	if(  (sta_ap_mode == 1)   // if STA mode (Chinese: 如果是STA模式
 	   ||(sta_ap_mode == 3))  // if STA+AP mode(Chinese: 如果是STA+AP模式)
 	{
 		 //将其中的SSID和密码改成你所期望连接的热点/路由器的)
 		if( M8266WIFI_SPI_Set_Opmode(sta_ap_mode,0,&status)==1)
-				 {
-						u16  	wifi_status=0;
-						u16    wifi_test=3;
-						wifi_test=M8266WIFI_SPI_STA_Connect_Ap(wifi_name,wifi_password,0,10,&wifi_status);
-						if(wifi_test==1)
-						{
-							 wifi_connect_flag=1;
-							//LED_set(0,0);LED_set(1,0);HAL_Delay(100);
-							//LED_set(0,1);LED_set(1,1);HAL_Delay(200);
-							//printf("wifi connect_success\r\n");
-						}
-				 }
-				 else
-				 {
-						 while(1)
-						 {							 
-						 HAL_Delay(1000);
-//						 wifi_connect_flag=0;
-////						 printf("can not connect to wifi\r\n");
-//						 Gui_StrCenter(0,60,RED,BLUE,"can not connect to wifi",16,1);//居中显示	
-						 }
-				}
-
+             {
+                    u16    wifi_status=0;
+                    u16    wifi_test=3;
+                    wifi_test=M8266WIFI_SPI_STA_Connect_Ap(wifi_name,wifi_password,0,10,&wifi_status);
+                    if(wifi_test==1)
+                    {
+                         wifi_connect_flag=1;
+                    }
+             }
+             else
+             {
+                     while(1)
+                     {
+                     HAL_Delay(1000);
+                     }
+            }
 			 // Wait the module to got ip address if it works in STA mode
-			// (Chinese: 如果模组工作在包含STA的模式下，需要等待模组从所连接的热点/路由器获取到ip地址。因为获取到ip地址，是后面进行套接字通信的前提，因此，这里需要等待，确保模组获取到ip真正连接成功)
-			 if(M8266WIFI_SPI_wait_sta_connecting_to_ap_and_get_ip(sta_ip, 10)==0) // max wait 10s to get sta ip 
-			 {  //(Chinese: 最多等待10秒。max_wait_time_in_s可以根据实际情形调整。但这个时间不是实际等待的时间，而是最大等待时间超时上限。这个函数会在获取到ip地址或等待时间到达这里的超时上限时返回)
+			// (Chinese: 如果模组工作在包含STA的模式下，需要等待模组从所连接的热点/路由器获取到ip地址。因为获取到ip地址，是后面进行套接字通信的前提，因此，这里需要等待，确保模组获取到ip真正连接成功
+            if(M8266WIFI_SPI_wait_sta_connecting_to_ap_and_get_ip(sta_ip, 10)==0) // max wait 10s to get sta ip
+			 {
+                //(Chinese: 最多等待10秒。max_wait_time_in_s可以根据实际情形调整。但这个时间不是实际等待的时间，而是最大等待时间超时上限。这个函数会在获取到ip地址或等待时间到达这里的超时上限时返回)
 				 return 0;
 		   }
 	} 

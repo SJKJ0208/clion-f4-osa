@@ -16,7 +16,7 @@ bool INIT_DRDY = false; // Flag to ready data from ADS1298
 bool start_send_flag = false;
 bool isDaisy = false;		// does this have a daisy chain board?
 
-int32_t stat_1, stat_2;    	// used to hold the status register for boards 1 and 2
+int32_t stat_1, stat_2;    	///用于保存单板1和2的状态寄存器
 
 //uint32_t ads_save_count=0;
 //uint8_t ads_save_buff[800];
@@ -389,157 +389,69 @@ void ADS_WREGS(uint8_t _address, uint8_t _numRegistersMinusOne){
 	HAL_GPIO_WritePin(ADS_CS_Port,EEG_CS_Pin, GPIO_PIN_SET); 						//  close SPI
 }
 
-
-//void ADS_updateChannelData(){
-//	uint8_t inByte;
-//	int i,j;				// iterator in loop
-//	int nchan=4;  //assume 8 channel.  If needed, it automatically changes to 16 automatically in a later block.
-//	
-//	
-//	for(i = 0; i < nchan; i++){
-//		channelData[i] = 0;
-//	}
-//	
-//	HAL_GPIO_WritePin(ADS_CS_Port, CS_PIN, GPIO_PIN_RESET); 					//  open SPI
-//	stat_1=0;
-////	if( lead_open_flag)stat_1=0x10000000;
-//	// READ CHANNEL DATA FROM FIRST ADS IN DAISY LINE
-//	for(i = 0; i < 3; i++){										//  read 3 byte status register from ADS 1 (1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
-//		inByte = transferSPI( 0x00);
-//		stat_1 = (stat_1<<8) | inByte;	
-//	}
-//	
-//	for(i = 0; i < 4; i++){
-//		for( j=0; j<3; j++){		//  read 24 bits of channel data from 1st ADS in 8 3 byte chunks
-//			inByte = transferSPI( 0x00);
-//			//ecg_eeg_sendbuff[i][j+2]=inByte;
-//			channelData[i] = (channelData[i]<<8) | inByte;
-//		}
-//	}
-//	
-//	HAL_GPIO_WritePin(ADS_CS_Port, CS_PIN, GPIO_PIN_SET); 			// CLOSE SPI
-//	
-//	//reformat the numbers
-//	/*
-//	for( i=0; i<nchan; i++){			// convert 3 byte 2's compliment to 4 byte 2's compliment		
-//		if( (channelData[i] & 0x00800000) == 0x00800000 )	{
-//			channelData[i] = ~channelData[i];
-//			channelData[i] += 0x00000001;
-//		}else{
-//			//channelData[i] &= 0x00FFFFFF;
-//		}
-//		channelData[i] = channelData[i]  << 8;
-//	}
-//	*/
-//}
-
 //read data
-void ADS_RDATA() {				//  use in Stop Read Continuous mode when DRDY goes low
+void ADS_RDATA() {
+    /// 当DRDY变低时，在停止读连续模式中使用
+    ///是EEG的缓存
 	uint8_t inByte,inByte1,inByte2,inByte3;
-	int i,j;
-	
-	
-	int nchan = 4;	//assume 8 channel.  If needed, it automatically changes to 16 automatically in a later block.
-	
-	stat_1 = 0;							//  clear the status registers, stat_1->ADS1299, stat_2->ADS1298
-	stat_2 = 0;	
-	
-	// CLEAR BUFF
-	for(i = 0; i < nchan; i++){
-		channelData[i] = 0;		//1~3->ECG, 0->EEG
-	}	
-	
-	// READ EEG DATA
-	HAL_GPIO_WritePin(ADS_CS_Port,EEG_CS_Pin,GPIO_PIN_RESET); 					//  open SPI
-	transferSPI( _RDATA);//Read data by command; supports multiple read back
-	// READ CHANNEL DATA FROM FIRST ADS IN DAISY LINE, READ REGESTER DATA
-	for(i = 0; i < 3; i++){			//  read 3 byte status register (1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
-		inByte = transferSPI( 0x00);
-
-		stat_1 = (stat_1<<8) | inByte;
-				
+	int nchan = 4;                      	//假设8通道。如果需要，它会在后面的块中自动更改为16。
+	stat_1 = 0;							    //  清除状态寄存器，stat_1->ADS1299, stat_2->ADS1298
+	stat_2 = 0;
+	/// CLEAR BUFF
+	for(int i = 0; i < nchan; i++){
+        ///四个字节的buf
+		channelData[i] = 0;		            ///1~3->ECG, 0->EEG
 	}
-	//READ EEG SIGNAL DATA
-	for(i = 0; i < 1; i++){
+
+
+    /********************************************EEGSPI*********************************************/
+
+	HAL_GPIO_WritePin(ADS_CS_Port,EEG_CS_Pin,GPIO_PIN_RESET); 					//  open SPI
+
+	transferSPI( _RDATA);                                   //Read data by command; supports multiple read back
+    ///给EEG写入一个命令
+	///从spi中的第一个ads读取通道数据，读取寄存器数据
+	for(int i = 0; i < 3; i++){
+        /// 读取3字节状态寄存器(1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
+		inByte = transferSPI( 0x00);
+		stat_1 = (stat_1<<8) | inByte;
+        ///将上一次的数据左移后再引入此次的一共三个字节
+	}
+
+	///READ EEG SIGNAL DATA
+	for(int i = 0; i < 1; i++){
 		inByte1 = transferSPI( 0x00);
 		inByte2 = transferSPI( 0x00);
 		inByte3 = transferSPI( 0x00);
-		//inByte3 = ADS_RREG(0x00,EEG_CS_Pin);
 		channelData[i] = (inByte1 << 16) | (inByte2 << 8) | inByte3;
-		
+        ///组成三个字节
 	}
 	HAL_GPIO_WritePin(ADS_CS_Port,EEG_CS_Pin,GPIO_PIN_SET); 					//  close SPI
-	// READ ECG DATA
-	HAL_GPIO_WritePin(ADS_CS_Port,ECG_CS_Pin,GPIO_PIN_RESET); 					//  open SPI
-	transferSPI( _RDATA);//Read data by command; supports multiple read back
-	// READ CHANNEL DATA FROM FIRST ADS IN DAISY LINE, READ REGESTER DATA
-	for(i = 0; i < 3; i++){			//  read 3 byte status register (1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
-		inByte = transferSPI( 0x00);
 
+    /*********************************************EEGSPI*********************************************/
+
+
+    /*********************************************ECGSPI*********************************************/
+
+	HAL_GPIO_WritePin(ADS_CS_Port,ECG_CS_Pin,GPIO_PIN_RESET); 					//  open SPI
+
+	transferSPI( _RDATA);               //Read data by command; supports multiple read back
+	                                    // READ CHANNEL DATA FROM FIRST ADS IN DAISY LINE, READ REGESTER DATA
+	for(int i = 0; i < 3; i++){			//  read 3 byte status register (1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
+		inByte = transferSPI( 0x00);
 		stat_2 = (stat_2<<8) | inByte;
-				
 	}
 	//READ ECG SIGNAL DATA
-	for(i = 1; i < 4; i++){
+	for(int i = 1; i < 4; i++){
 		inByte1 = transferSPI( 0x00);
 		inByte2 = transferSPI( 0x00);
 		inByte3 = transferSPI( 0x00);
-		//inByte3 = ADS_RREG(0x00,ECG_CS_Pin);
-		channelData[i] = (inByte1 << 16) | (inByte2 << 8) | inByte3;		
+		channelData[i] = (inByte1 << 16) | (inByte2 << 8) | inByte3;
 	}
-	HAL_GPIO_WritePin(ADS_CS_Port,ECG_CS_Pin,GPIO_PIN_SET); 					//  close SPI
-//	HAL_GPIO_WritePin(ADS_CS_GPIO_Port,ADS_CS_Pin,GPIO_PIN_RESET); 					//  open SPI
-//	transferSPI( _RDATA);//Read data by command; supports multiple read back//?????????????
-//	
-//	// READ CHANNEL DATA FROM FIRST ADS IN DAISY LINE
-//	for(i = 0; i < 3; i++){			//  read 3 byte status register (1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
-//		inByte = transferSPI( 0x00);
 
-//		stat_1 = (stat_1<<8) | inByte;
-//				
-//	}
-//	
-//	for(i = 0; i < nchan; i++){
-//			inByte1 = transferSPI( 0x00);
-//			inByte2 = transferSPI( 0x00);
-//			inByte3 = transferSPI( 0x00);
-//		
-//		channelData[i] = (inByte1 << 16) | (inByte2 << 8) | inByte3;
-//		
-//	}
-	
-//	if (isDaisy) {
-//		nchan = 16;
-//		
-//		// READ CHANNEL DATA FROM SECOND ADS IN DAISY LINE
-//		for( i=0; i<3; i++){			//  read 3 byte status register (1100+LOFF_STATP+LOFF_STATN+GPIO[7:4])
-//			inByte = transferSPI( 0x00);
-//			stat_2 = (stat_1<<8) | inByte;				
-//		}
-//		
-//		for( i = 8; i<16; i++){
-//			for( j=0; j<3; j++){		//  read 24 bits of channel data from 2nd ADS in 8 3 byte chunks
-//				inByte = transferSPI( 0x00);
-//				channelData[i] = (channelData[i]<<8) | inByte;
-//			}
-//		}
-//	}
-	
-//	HAL_GPIO_WritePin(ADS_CS_GPIO_Port,ADS_CS_Pin,GPIO_PIN_SET); 					//  close SPI
-	
-	
-	/*
-	for( i = 0; i<nchan; i++){			// convert 3 byte 2's compliment to 4 byte 2's compliment	
-		//if(bitRead(channelData[i],23) == 1){	
-		if( (channelData[i] & 0x00800000) == 0x00800000  ){	
-			channelData[i] = ~channelData[i] + 1;
-			
-		}else{
-			channelData[i] &= 0x00FFFFFF;
-		}
-		//channelData[i] = channelData[i] << 8;
-	} 
-*/	
+	HAL_GPIO_WritePin(ADS_CS_Port,ECG_CS_Pin,GPIO_PIN_SET); 					//  close SPI
+
+    /*********************************************ECGSPI*********************************************/
 }
 
 // String-Byte converters for RREG and WREG
@@ -547,17 +459,19 @@ void ADS_RDATA() {				//  use in Stop Read Continuous mode when DRDY goes low
 //当24位数据为负数时，用32位储存需做相应调整
 int Uint24ToUint32(int NumIn)
 {
+    ///将24位数据，弄成32位
 	 int32_t OutPut=0;
+     ///如果是负数，最高一位为负数
 	 if(NumIn&0x00800000)
 	 {
-			NumIn=0xFFFFFF-NumIn;
-			OutPut = 0-NumIn;
+         NumIn=0xFFFFFF-NumIn;
+         OutPut = 0-NumIn;
 	 }
 	 else
 	 {
-			OutPut = NumIn;
-		}
-		return OutPut;
+         OutPut = NumIn;
+     }
+     return OutPut;
 }
 
 
@@ -568,10 +482,6 @@ void ADS_sendUARTData(void){
 	}
 	channelvalue[0].INT32	=channelvalue[0].INT32+Zero_deviation_ch1;
 	channelvalue[1].INT32	=channelvalue[1].INT32+Zero_deviation_ch2;
-//		for(int i=0;i<3;i++)
-//	{
-////		printf("s %d\r\n",channelvalue[i].INT32);
-//	}
 }
 	
 void ADS_SendData(){
@@ -586,48 +496,32 @@ int32_t* getChannelData(){
 
 uint8_t transferSPI(uint8_t send){
 	uint8_t rx = 0x00;
-	
 	HAL_SPI_TransmitReceive(&hspi1, &send, &rx, sizeof(rx),0xFFFF);
-	//HAL_SPI_TransmitReceive_DMA(&hspi1, &send, &rx, sizeof(rx));
-//	HAL_SPI_Transmit_DMA(&hspi1, &send,sizeof(send));
-//	HAL_SPI_Receive(&hspi1,&rx,sizeof(rx),0xFFFF);
 	return rx;
 }
 
-
-
-
-
 uint32_t ADS_temp;
-
 
 void ADS_SendDataBuff()
 {	 	
 	for(int i=0;i<4;i++)
 	{
+        ///channelData[0]是EEG   [1][2][3]是ECG
 		channelvalue[i].INT32=Uint24ToUint32(channelData[i]);
 	}
-
 /*************************pack****************************/
-//	for(int j=0;j<4;j++)
-//	{
-//		ecg_eeg_sendbuff[0][j+2]=channelvalue[0].UINT8[j];	//pack EEG data
-//	}
-
-	for(int i=0;i<2;i++)	
+///buff = [4][8] =
+	for(int i=0;i<2;i++)
 	{
 		for(int j=0;j<4;j++)
 		{
 			ecg_eeg_sendbuff[i][j+2]=channelvalue[i].UINT8[j];
 		}
 	}
-//	ecg_eeg_sendbuff[2][1]=0x04;
-//	ecg_eeg_sendbuff[2][2]=(uint8_t)stat_1;
-//	ecg_eeg_sendbuff[2][3]=(uint8_t)(stat_1>>8);
-//	ecg_eeg_sendbuff[2][4]=(uint8_t)(stat_1>>16);
-	if(lead_open_flag)ecg_eeg_sendbuff[2][5]=1;
-	else ecg_eeg_sendbuff[2][5]=0;
-	
+	if(lead_open_flag)
+        ecg_eeg_sendbuff[2][5]=1;
+	else
+        ecg_eeg_sendbuff[2][5]=0;
 	//校验和
 	for(int i=0;i<4;i++)
 	{

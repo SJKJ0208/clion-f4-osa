@@ -24,7 +24,7 @@
 
 #define _RDATAC 	0x10 // Enable Read Data Continuous mode (default mode at power-up)
 #define _SDATAC 	0x11 // Stop Read Data Continuous mode
-#define _RDATA 		0x12 // Read data by command; supports multiple read back
+#define _RDATA 		0x12 // 设置命令应答模式
 
 
 #define WREG			0X40	//写入010r rrrr 000n nnnn
@@ -72,6 +72,7 @@
 
 #define CHx_SET_TESTSIGNAL      0X05
 
+///使用同一块内存
 typedef union
 {
 	uint8_t UINT8[4];

@@ -3,7 +3,6 @@
 #include "spo2.h"
 #include "M8266WIFIDrv.h"
 #include "M8266WIFI_ops.h"
-#include "GUI.h"
 
 uint8_t spo2_rx2Buffer[100];
 int spo2_rec2Flag = 0;

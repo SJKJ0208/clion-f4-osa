@@ -35,7 +35,8 @@
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/ADS1299"/>
-					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/spo2"/>
+					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Spo2"/>
+					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Init"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Middlewares/Third_Party/FreeRTOS/Source/include"/>
@@ -76,7 +77,8 @@
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/ADS1299"/>
-					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/spo2"/>
+					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Spo2"/>
+					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Init"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Drivers/STM32F4xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="C:/Users/jjj/Desktop/osahs/OSAHS_project/Middlewares/Third_Party/FreeRTOS/Source/include"/>
@@ -195,6 +197,33 @@
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Src/usart.c">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/ADS/ADS_Task.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Init/InitTask.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Init/InitTask.h">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Spo2/Spo2_Task.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Spo2/spo2.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/Spo2/spo2.h">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/WiFi/M8266HostIf_STM32xx.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/WiFi/M8266WIFI_ops.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/Task/WiFi/test_m8266wifi.c">
+			<Option target="OSAHS_project.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/ADS1299/ADS1298.c">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
@@ -228,55 +257,16 @@
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/FATFS/Target/sd_diskio.h">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/FONT.H">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/GUI.c">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/GUI.h">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/lcd.c">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/lcd.h">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/pic.h">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/test.c">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/LCD/test.h">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/ALK8266WIFI模组SPI接口高速通信使用与集成_主机驱动API函数说明.pdf">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/M8266HostIf_STM32xx.c">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/M8266WIFIDrv.h">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/M8266WIFI_ops.c">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/M8266WIFI_ops.h">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/libM8266WIFIDrv_STM32F4xx.a">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/M8266WIFI/test_m8266wifi.c">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/spo2/spo2.c">
-			<Option target="OSAHS_project.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Core/hand/spo2/spo2.h">
 			<Option target="OSAHS_project.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/jjj/Desktop/osahs/OSAHS_project/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">

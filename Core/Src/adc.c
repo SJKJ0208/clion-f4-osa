@@ -23,8 +23,8 @@
 /* USER CODE BEGIN 0 */
 #include "FreeRTOS.h"
 #include "cmsis_os.h"
-
 #include "ADS1298.h"
+#include "InitTask.h"
 
 uint16_t adc2_value;
 uint16_t adc1_value[ADC1_BUFFER_SIZE*ADC1_CHANNEL_COUNT];
@@ -33,9 +33,6 @@ static uint32_t collect_num=0;
 uint8_t  adc_buffer[1000];
 int start_adc_flag=0;
 
-double x[6]={0},y[6]={0};
-double x1[6]={0},y1[6]={0};
-volatile float value_temp=0.00;
 
 /* USER CODE END 0 */
 
@@ -266,18 +263,16 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
 
 /* USER CODE BEGIN 1 */
 float power[4]={0,0,0,0};	//battery power in 2s
-uint8_t power_count=0;	//record the nth power data
+uint8_t power_count=0;	    //record the nth power data
 void power_detect()
 {
-	
-	//char adc_buffer[20];
-			/**************电量检测*****************************/
+/**************电量检测*****************************/
 	power[power_count]=(float)(adc2_value*3.3/4095);
 	power_count++;
 	if(power_count>3)
 	{
 		power_count = 0;
-		//if the power is rising, light led_charge
+		///充电检测，但是不知道有没有用
 		if(power[3]>power[2] && power[2]>power[1] && power[1]>power[0])
 		{
 			HAL_GPIO_WritePin(LED_charge_GPIO_Port,LED_charge_Pin,GPIO_PIN_RESET);
@@ -285,36 +280,6 @@ void power_detect()
 		else
 			HAL_GPIO_WritePin(LED_charge_GPIO_Port,LED_charge_Pin,GPIO_PIN_SET);
 	}
-	 // LCD_ShowNum(40+24,155,power*100,4,16);	
-//	  power=(float)(power-2.4);
-//		power=(float)((power/0.4));
-		//printf("power=%%%f",power);
-	
-//	  if(power>2.6)
-//		{
-//		POINT_COLOR=BLUE;	
-//		//LCD_DrawFillRectangle(100,30,150,45);	
-//		LCD_DrawFillRectangle(180,30,192,45);	
-//		LCD_DrawFillRectangle(194,30,206,45);	
-//		LCD_DrawFillRectangle(208,30,220,45);	
-//		}
-//		if(power>2.5&power<2.6)
-//		{
-//		POINT_COLOR=BLUE;	
-//		//LCD_DrawFillRectangle(100,30,150,45);	
-//		LCD_DrawFillRectangle(180,30,192,45);	
-//		LCD_DrawFillRectangle(194,30,206,45);	
-//		}
-//		//sprintf(adc_buffer, " %2.0f" , power);
-//		//Show_Str(195,30,BLUE,WHITE,adc_buffer,16,0);
-//		//Show_Str(190,30,BLUE,WHITE,"%",16,0);
-//		if(power<2.5)
-//		{
-//		POINT_COLOR=BLUE;	
-//		//LCD_DrawFillRectangle(100,30,150,45);	
-//		LCD_DrawFillRectangle(180,30,192,45);	
-//		}
-//		POINT_COLOR=RED;
 }
 
 void breath_init(void)
@@ -346,7 +311,7 @@ void breath_send(void)
 		{
 			adc_buffer[799]=0xBB;
 			collect_num=1;//清空缓存区
-		  //test500hz_count++;			
+		    //test500hz_count++;
 			vTaskSuspendAll();
             ///将数据块上传，避免被被打断，时序非常重要，因此挂起所有的进程
 			bre_temp=M8266WIFI_SPI_Send_BlockData((uint8_t*)adc_buffer,800,1000,0,NULL,0,NULL);
@@ -355,10 +320,10 @@ void breath_send(void)
 	}
 }
 
-
 int adc2_flag=0;
 int adc1_flag=0;
 extern osSemaphoreId Breath_BinarySemHandle;
+
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
 	if( hadc == &hadc1)
@@ -368,17 +333,9 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 	}
 		if( hadc == &hadc2)
 	{
-            ///adc的dma采集到了800个数据，就产生这个
+	    ///adc的dma采集到了800个数据，就产生这个
 		adc2_flag=1;
-//		if(screen_start_count_flag)
-//			{
-//			tim3_count_seconds++;
-//			if(tim3_count_seconds>20)
-//			{
-//			lcd_wakeup_flag=0;	//连续20秒没有触屏动作则熄屏
-//			tim3_count_seconds=0;
-//			}
-//		}
+
 	}
 }
 /* USER CODE END 1 */

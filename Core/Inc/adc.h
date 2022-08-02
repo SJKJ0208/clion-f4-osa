@@ -28,9 +28,6 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-#include "lcd.h"
-#include "gui.h"
-#include "test.h" 
 #include "tim.h"
 #include "M8266WIFIDrv.h"
 #include "M8266WIFI_ops.h"
